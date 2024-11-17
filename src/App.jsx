@@ -12,7 +12,7 @@ function App() {
 
     useEffect(() => {
         console.log('hello useEffect');
-    });
+    }, []);
 
     return (
         <>
